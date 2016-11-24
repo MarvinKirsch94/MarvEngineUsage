@@ -196,4 +196,12 @@ public class GameContainer implements Runnable {
     public Input getInput() {
         return input;
     }
+
+    public boolean isLockFrameRate() {
+        return lockFrameRate;
+    }
+
+    public void setLockFrameRate(boolean lockFrameRate) {
+        this.lockFrameRate = lockFrameRate;
+    }
 }

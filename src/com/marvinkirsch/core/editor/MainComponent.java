@@ -9,10 +9,20 @@ import com.marvinkirsch.core.engine.Renderer;
  * @version 0.0
  *          created on 24.11.2016
  */
-public class Main extends AbstractGame{
+public class MainComponent extends AbstractGame{
 
     public static void main(String args[]) {
-        
+        GameContainer gc = new GameContainer(new MainComponent());
+        gc.setWidth(320);
+        gc.setHeight(240);
+        gc.setScale(2.5f);
+        gc.setLockFrameRate(true);
+        gc.setClearScreen(true);
+        gc.start();
+    }
+
+    public MainComponent() {
+
     }
 
     @Override
