@@ -6,7 +6,7 @@ import com.marvinkirsch.core.engine.Renderer;
 /**
  * @author Marvin Kirsch
  * @version 0.0
- *          created on 24.11.2016
+ * created on 24.11.2016
  */
 public class Level {
 
